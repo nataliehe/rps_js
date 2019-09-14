@@ -1,0 +1,31 @@
+{
+  "name": "rps",
+  "version": "1.0.0",
+  "description": "A simple web app for the Rock-Paper-Scissors game.",
+  "main": "app.js",
+  "scripts": {
+    "test": "nyc jasmine; node_modules/.bin/mocha test/chromeTest.js --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nataliehe/rps_js.git"
+  },
+  "author": "Natalie He",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nataliehe/rps_js/issues"
+  },
+  "homepage": "https://github.com/nataliehe/rps_js#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^2.41.0",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
+    "selenium-webdriver": "^4.0.0-alpha.4"
+  }
+}
